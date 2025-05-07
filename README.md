@@ -7,7 +7,12 @@ local Window = Rayfield:CreateWindow({
     Icon = 0,
     LoadingTitle = "DeadRails Visual Tools",
     LoadingSubtitle = "X-Ray / NoClip / Night / Visual Enemies",
-    Theme = "Default",    Discord = {
+    Theme = "Default",
+    DisableRayfieldPrompts = false,
+    ConfigurationSaving = {
+        Enabled = false,
+    },
+    Discord = {
         Enabled = true,
         Invite = "pyRSZ5E5",
         RememberJoins = false
@@ -316,3 +321,4 @@ task.spawn(function()
         end
     end
 end)
+
